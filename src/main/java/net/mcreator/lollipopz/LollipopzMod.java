@@ -26,6 +26,9 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.lollipopz.init.LollipopzModItems;
+import net.mcreator.lollipopz.init.LollipopzModBlocks;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -42,6 +45,8 @@ public class LollipopzMod {
 	public LollipopzMod() {
 
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+		LollipopzModBlocks.REGISTRY.register(bus);
+		LollipopzModItems.REGISTRY.register(bus);
 
 	}
 

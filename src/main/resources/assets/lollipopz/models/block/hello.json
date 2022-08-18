@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "lollipopz:blocks/hello",
+    "up": "lollipopz:blocks/hello",
+    "north": "lollipopz:blocks/hello",
+    "east": "lollipopz:blocks/hello",
+    "south": "lollipopz:blocks/hello",
+    "west": "lollipopz:blocks/hello",
+    "particle": "lollipopz:blocks/hello"
+  }
+}
